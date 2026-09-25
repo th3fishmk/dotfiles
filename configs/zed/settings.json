@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "icon_theme": {
+        "mode": "system",
+        "light": "Zed (Default)",
+        "dark": "VSCode Great Icons Theme"
+    },
     "preview_tabs": {
         "enabled": false,
     },
@@ -41,7 +46,7 @@
     "theme": {
         "mode": "system",
         "light": "One Light",
-        "dark": "One Dark",
+        "dark": "VSCode Dark Modern",
     },
     "buffer_font_fallbacks": ["Noto Color Emoji"],
     "lsp": {
