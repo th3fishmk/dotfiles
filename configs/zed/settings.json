@@ -10,7 +10,7 @@
     "icon_theme": {
         "mode": "system",
         "light": "Zed (Default)",
-        "dark": "VSCode Great Icons Theme"
+        "dark": "Material Icon Theme"
     },
     "preview_tabs": {
         "enabled": false,
