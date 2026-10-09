@@ -47,24 +47,10 @@ sudo dnf install -y \
     shellcheck \
     shfmt \
     steam \
-    syncthing \
     tldr \
     vim \
-    wget \
-    dotnet-sdk-10.0 \
-    dotnet-sdk-8.0
+    wget
 
-echo "Installing tauri dependencies"
-sudo dnf install -y \
-    webkit2gtk4.1-devel \
-    openssl-devel \
-    file \
-    libappindicator-gtk3-devel \
-    librsvg2-devel \
-    libxdo-devel
-
-echo "Enabling system services"
-systemctl --user enable --now syncthing.service
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 echo "Performing some necessary clean up"

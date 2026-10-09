@@ -34,16 +34,19 @@ if [ "$IS_WSL" = false ]; then
         "com.belmoussaoui.Authenticator"
         "com.github.huluti.Coulr"
         "com.google.Chrome"
-        "io.github.nate_xyz.Paleta"
-        "io.github.nokse22.asciidraw"
-        "io.github.nokse22.Exhibit"
-        "io.github.nokse22.minitext"
+        "com.spotify.Client"
+        "io.github.ra3xdh.qucs_s"
         "org.chromium.Chromium"
+        "org.freecad.FreeCAD"
         "org.inkscape.Inkscape"
         "org.kde.haruna"
         "org.kde.krita"
+        "org.kicad.KiCad"
         "org.onlyoffice.desktopeditors"
+        "org.qbittorrent.qBittorrent"
+        "org.videolan.VLC"
         "page.codeberg.impromptux.ytdl-gui"
+        # "page.codeberg.impromptux.ytdl-gui"com.belmoussaoui.Authenticator
     )
 
     for APP in "${APPS[@]}"; do
